@@ -5,6 +5,7 @@ languages: 'CPP'
 sources:
   #Files or Directories to be Excluded are mentioned in exclusions
   exclusions:
+    - 'c_glib'
     - 'test'
     - 'generated'
     - 'mock'
