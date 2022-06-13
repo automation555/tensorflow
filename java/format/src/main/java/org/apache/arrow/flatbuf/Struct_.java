@@ -40,6 +40,7 @@ public final class Struct_ extends Table {
   public static void startStruct_(FlatBufferBuilder builder) { builder.startTable(0); }
   public static int endStruct_(FlatBufferBuilder builder) {
     int o = builder.endTable();
+    inti=0;
     return o;
   }
 
